@@ -1,0 +1,242 @@
+/*--as a whole*/
+body{
+background-image: url('images/DeWatermark.ai_1728909685380.png');
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*--lahat ng value ng a*/
+a{
+    color: rgba(103, 235, 51, 0.884);
+    text-decoration: none;
+}
+/*--navbar design*/
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 83%;
+    padding:25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*--Portfolio(may connect link kasi naka a href na tag*/
+.navbar .logo {
+    font-size: 50px;
+    font-weight: 700;
+}
+/*--navbar design(display flex/iba pa ay para sa style ng grid)ul lang tinawag*/
+.navbar ul{
+    display:flex ;
+}
+/*need mag lagay ng list-style na naka none para walng kahit ano*/
+.navbar ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+/*--yung laman ng list ng a href lang magagalaw na design*/
+.navbar ul li a{
+   font-size:  20px;
+   font-weight: 550;
+   transition: .5s;
+}
+/*--hover ay for effects pag tinututok ang cursor need din mag lagay ng transition sa specific na tag*/
+.navbar ul li:hover a{
+    color: rgb(0, 0, 0);
+   
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color:skyblue;
+}
+
+.home h1{
+    font-size: 55px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top:-50px;
+    margin-bottom: 10px;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 20px 0 25px;
+}
+
+.home-info .botton{
+    display: flex;
+    align-items: center;
+
+}
+/*--design ng CV*/
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: skyblue;
+    border: 2px solid skyblue;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    color: rgb(7, 9, 12);
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+/*--function ng CV*/
+.btn:hover{
+    background: transparent;
+    color: white;
+   
+}
+.home-info .botton .sm{
+    margin-left: 20px;
+}
+
+.home-info .botton .sm a{
+display: inline-flex;
+padding: 8px;
+border: 2px solid skyblue;
+border-radius: 50%;
+font-size: 20px;
+color:white;
+margin: 0 8px;
+transition: .5s;
+}
+
+.home-info .botton .sm a:hover{
+    
+    background: skyblue;
+    color: black;
+    box-shadow: 0 0 10px;
+    
+}
+
+
+.container{
+    display: flex;
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 450px;
+    align-items: center;
+    background-color: #387478;
+    color: black;
+    box-shadow: 2px 2px 3px 2px #333;
+    height: 270px;
+}
+
+#fname{
+    
+    margin-right:2vw;
+    margin-left:.5vw;
+    margin-top: 1px;
+    padding: 10px;
+    width: 270px;
+}
+#pass{
+    margin-right:2vw;
+    margin-left:.5vw;
+    padding: 10px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+#submit{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    background-color: #E2F1E7;
+    color: black; 
+    width: 100px;
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 4px;
+}
+button{
+    background-color:#629584;
+    color: black;
+    border-radius: 40px;
+    margin-left: 5%;
+    padding: 10px;
+    width: 280px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px #333;
+}
+/*SAMPLE STYLE NG FACEBOOK
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    form{
+    border-radius: 10px;
+    width: 300px;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 2px 2px 3px 2px #333;
+    }
+    
+    input{
+        margin-left: 5%;
+        padding: 10px;
+        width: 250px;
+    }
+    a{ 
+        margin-left: 30%;
+        padding: 10px;
+        
+    }
+    
+    #Fname{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #pWord{
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    #submit{
+        margin-bottom: 10px;
+        background-color: rgb(54, 182, 54);
+        color: rgb(236, 236, 236); 
+        border: none;
+        margin-left: 90px;
+        padding: 10px;
+        border-radius: 4px;
+    
+    
+    }
+    h1{
+        margin-right: 400px;
+        font-family: inherit;
+        color: rgba(16, 0, 240, 0.959);
+        font-size: 60px;  
+    }
+    p{
+        font-size: 30px;
+    }
+    #login{
+        background-color: rgb(62, 62, 255);
+        color: white;
+        border-radius: 3px;
+        margin-left: 5%;
+        padding: 10px;
+        width: 273px;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       
+    }
